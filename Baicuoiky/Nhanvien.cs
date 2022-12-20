@@ -25,12 +25,24 @@ namespace Baicuoiky
 
         public void hienthi()
         {
-            throw new NotImplementedException();
+            Console.Write("Nhap id nhan vien: ");
+            Idnv = int.Parse(Console.ReadLine());
+            Console.Write("Nhap ho va ten nhan vien: ");
+            hoten = Console.ReadLine();
+            Console.Write("Nhap tuoi nhan vien: ");
+            tuoi = int.Parse(Console.ReadLine());
+            Console.Write("Nhap chuc vu nhan vien: ");
+            chucvu = Console.ReadLine();
+            Console.Write("Nhap phu trach nhan vien: ");
+            phutrach = Console.ReadLine();
         }
-
         public void nhap()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("ID nhan vien: {0}", Idnv);
+            Console.WriteLine("Ho va ten nhan vien: {0}", hoten);
+            Console.WriteLine("Tuoi nhan vien: {0}", tuoi);
+            Console.WriteLine("Chuc vu nhan vien: {0}", chucvu);
+            Console.WriteLine("Phu trach nhan vien: {0}", phutrach);
         }
     }
 }
