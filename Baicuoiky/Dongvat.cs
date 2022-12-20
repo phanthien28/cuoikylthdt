@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Baicuoiky
 {
-     interface Ithongtin
+    interface Ithongtin
     {
         int Idthu { get; set; }
         string Loai { get; set; }
@@ -62,4 +62,5 @@ namespace Baicuoiky
 
         }
     }
+    
 }
