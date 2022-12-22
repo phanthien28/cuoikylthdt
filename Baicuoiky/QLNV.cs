@@ -6,7 +6,7 @@ namespace Baicuoiky
 {
     class QLNV : Nhanvien
     {
-    List<Nhanvien> nv = new List<Nhanvien>();
+        List<Nhanvien> nv = new List<Nhanvien>();
         public void Hienthinv()
         {
             foreach (Nhanvien a in nv)
@@ -32,5 +32,10 @@ namespace Baicuoiky
                 if (trl != "y") break;
             }
         }
+        public void Sapxepnv()
+        {
+            nv.Sort(new Sapxepnv());
+        }
+        
     }
 }
